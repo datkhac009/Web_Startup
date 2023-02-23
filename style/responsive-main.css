@@ -28,7 +28,7 @@
         height: var(--height-items);
     }
 }
-@media screen and (max-width: 768.98px) {
+@media screen and (max-width: 792.98px) {
     :root{
         --fontsize-h3:30px;
         --fontsize-p:13px;
@@ -80,6 +80,25 @@
     .header__title__img img,.main__partners__content__item__img img{
         width: var(--with-items);
         height: var(--height-items);
+    }
+    .header__menu__sub__ul {
+        flex-direction: column;
+        margin-top: -9rem;
+        gap: 16px;
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(232,226,226,1) 0%, rgba(218,208,208,1) 100%);
+        width: auto;
+        margin-right: 4rem;
+        padding: 35px;
+        opacity: 0.5;
+        border-radius: 40% 40%;
+        align-items: center;
+    }
+    .header__menu__sub.active {
+        margin-top: 7rem;
+    }
+    .header__menu__sub {
+        margin-top: -20.8rem;
+        transition: all .2s linear;
     }
 }
 @media screen and (max-width: 540.98px) {
