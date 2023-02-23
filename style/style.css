@@ -55,7 +55,7 @@
  margin-top: 0;
 }
 .header__menu__sub{
-    margin-top: -6.8rem;
+    margin-top: -9.8rem;
     transition: .2s linear;
 }
 .header__menu__sub__ul{
@@ -177,6 +177,7 @@
 
 .main__partners {
     padding-top: 60px;
+    text-align: center;
 }
 
 .main__partners__text {
@@ -219,7 +220,6 @@
     display: inline-block;
     background: #212529;
     border-radius: 5px;
-    margin: 0 0% 0 45%;
     padding: 13px 30px;
 }
 
@@ -400,6 +400,9 @@ color: #FFFFFF;
     justify-content: space-between;
     margin: 4.5em 11em;
 }
+.main_content{
+    text-align: center;
+}
 .main_content .main_project img{
     width: 570px;
     height: 347px;
@@ -411,7 +414,7 @@ color: #FFFFFF;
     background: #212529;
     border-radius: 5px;
     padding: 13px 30px;
-    margin: 0 0% 6em 45%;
+    margin-bottom: 4rem;
 }
 
 .main__portfolio--btn a {
@@ -603,7 +606,10 @@ color: #FFFFFF;
         flex-direction: column-reverse;
     }
     .header__title__img img {
-        width: 360px;
+       display: none;
+    }
+    .header__title__content{
+        margin-top: 4rem;
     }
     .header__menu__sub__ul {
         flex-direction: column;
@@ -614,7 +620,7 @@ color: #FFFFFF;
         margin-right: 4rem;
         padding: 35px;
         opacity: 0.5;
-        border-radius: 50% 50%;
+        border-radius: 40% 40%;
         align-items: center;
       
     }
@@ -628,9 +634,6 @@ color: #FFFFFF;
     .main__partners__link {
         flex-direction: column-reverse;
         gap: 40px;
-    }
-    .main__partners--btn {
-        margin: 0 0% 0 30%;
     }
     .main__partners__content__item {
         flex-direction: column;
@@ -663,9 +666,12 @@ color: #FFFFFF;
         text-align: center;
       
     }
+   
+    .main_content{
+        text-align: center;
+    }
     .main_project{
-        flex-direction: column;
-        margin: 0 33px;
+        margin: 4.5em 0em;
     }
     .main_content .main_project img{
         width: 320px;   
@@ -673,7 +679,7 @@ color: #FFFFFF;
         object-fit: contain;
     }
     .main__portfolio--btn{
-        margin: 0 0% 6em 7em;
+        margin-bottom: 4rem;
     }
     /* *************Trang 3 Our Services***************** */
     .main__services__price{
